@@ -1,0 +1,26 @@
+{
+  "name": "slackbot",
+  "version": "0.1.0",
+  "description": "Simple Slack bot that allows you to run tasks via Slack",
+  "main": "dist/index.js",
+  "private": true,
+  "dependencies": {
+    "artillery": "^1.5.0-17",
+    "axios": "^0.15.2",
+    "debug": "^2.3.2",
+    "form-data": "^2.1.2",
+    "phantom": "^3.0.3",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.46",
+    "eslint": "^3.10.2",
+    "typescript": "^2.0.9"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "author": "Vic <vic@minustime.com>",
+  "license": "ISC"
+}
