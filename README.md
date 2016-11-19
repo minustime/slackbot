@@ -12,8 +12,8 @@ Simple bot that allows you to run tasks via Slack.
 ## Setup 
 
 1. Clone the project `$ git clone git@github.com:minustime/slackbot.git`
-2. Install dependencies `$ npm install`
-3. Build it `$ npm run build`
+2. Install dependencies `$ yarn install`
+3. Build it `$ yarn run build`
 
 ## Run 
 
