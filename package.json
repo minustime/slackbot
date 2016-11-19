@@ -1,6 +1,6 @@
 {
   "name": "slackbot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Slack bot that allows you to run tasks via Slack",
   "main": "dist/index.js",
   "private": true,

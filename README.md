@@ -19,14 +19,16 @@ Simple bot that allows you to run tasks via Slack.
 
 Start the bot by running `$ SLACK_TOKEN=<your slack token> node dist/index`
 
+_OR_
+
 **via Docker**
 
-_in progress_
+1. Copy `env_make.sample` into `env_make`
+2. Add your Slack token as an environment variable
+3. Build the Docker image `$ make build`
+4. Run the container `$ make run`
 
-1. Add the Slack token as an environment variable `$ SLACK_TOKEN=<your slack token>`
-2. Run the container `$ make up` or `$ make up -d` 
-
-To bring down the container `$ make down`
+To bring down the container do `$ make stop`
 
 ## Bot Commands
 
@@ -55,6 +57,5 @@ More on Artillery's config files start here: [Artillery basic concepts](https://
 * Add tests
 * Allow to run in channels, private mesages, etc.
 * Add types
-* Add Docker
 * Refactor RTMS
 * Pass bot options via environment vars
