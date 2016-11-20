@@ -1,3 +1,5 @@
+include env_make
+
 BOT_NAME ?= slackbot
 
 .PHONY: all info build start run rm stop
