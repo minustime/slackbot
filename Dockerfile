@@ -1,6 +1,6 @@
 FROM minustime/phantomjs:latest
 
-MAINTAINER vic@minustime.com
+LABEL maintainer=vic@minustime.com
 
 # Update OS, install base packages
 RUN apt-get update \
@@ -14,7 +14,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ENV NODE_VERSION 6.9.1
+ENV NODE_VERSION 12.19.0
 
 # Install Node  & Yarn
 RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.gz" \
