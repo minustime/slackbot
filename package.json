@@ -9,7 +9,7 @@
     "debug": "4.1.1",
     "form-data": "^2.1.2",
     "phantom": "6.3.0",
-    "ws": "^1.1.1"
+    "ws": "^3.3.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.6",
